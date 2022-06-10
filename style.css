@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(99, 99, 255), rgb(92, 67, 169), rgb(39, 37, 93));
+  min-height: 900px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 66px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+ul {
+  margin: 100px;
+  line-height: 10px;
+}
+
+li {
+  margin: 0px auto 30px auto;
+  text-decoration: none;
+  border: 1px solid rgb(68, 61, 141);
+  border-radius: 10px;
+  background-color: rgb(68, 61, 141);
+  color: #fff;
+  height: 50px;
+  width: 800px;
+  font-size: 22px;
+  font-family: sans-serif;
+  box-shadow: 0px 2px;
+
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.fa-xmark {
+  color: red;
+  padding: 15px;
+  font-size: larger;
+
+
+}
+
+.fa-xmark:hover {
+  cursor: pointer;
+}
+
+.fa-trash-can {
+  color: rgb(202, 197, 197);
+  padding: 10px;
+}
+
+.fa-trash-can:hover {
+  cursor: pointer;
+  float: right;
+}
+
+.fa-star {
+  color: rgb(202, 197, 197);
+  padding: 10px;
+  flex: 1;
+}
+
+.fa-star:hover {
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#input {
+  height: 50px;
+  width: 500px;
+  border-radius: 10px;
+  font-size: 22px;
+  text-align: center;
+  border: transparent;
+  box-shadow: 1px 1px 20px;
+}
+
+button {
+  all: unset;
+  font-size: 50px;
+  margin: 30px;
+  color: white;
+  text-shadow: 0px 0px 50px black;
+}
+
+
+button:hover {
+  cursor: pointer;
+  font-size: 70px;
+}
+
+.fa-check {
+  color: greenyellow;
+  padding: 15px;
+  font-size: larger;
+}
+
+.fa-check:hover {
+  cursor: pointer;
+}
+
+
+
+
+span {
+  flex: 1;
+
+}
+
+.yellow {
+  color: yellow;
+}
+
+#filter {
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 50px auto;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+}
+
+.invisible{
+  display: none;
+}
